@@ -1,0 +1,406 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+body{
+  /* background-image: url("../img/diseno-fondo-abstracto.jpg"); */
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  color:#b7b7b7;
+  font-family: Open Sans;
+  margin:0;
+  width:100%;
+  height:100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: -5%;
+}
+
+.text-white{
+    color: white;
+}
+
+.center{
+  text-align: -webkit-center;
+}
+
+html{      
+    width:100%;
+    height:100%;       
+}
+.next {
+    color: white;
+    background: transparent;
+    padding: 19px 31px 20px 29px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.page {
+    color: black;
+    padding: 19px 31px 20px 29px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.contact {
+    color: white;
+    padding: 19px 31px 20px 29px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* .efecto{
+    overflow:hidden;
+    position:relative;
+    font-size:3em;
+    width:100%;
+    height:0;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition:all 500ms ease-out;
+    transition: all 500ms ease-out;
+ 
+}
+
+#contenedor {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+    display: grid;
+    align-items: center;
+}
+ 
+#contenedor1{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../img/black-and-white-city-background.png");
+    color:white;  
+    background-repeat: no-repeat;
+}
+
+#contenedor2 {
+    background-image: linear-gradient(
+ rgba(0, 0, 0, 0.5),
+ rgba(0, 0, 0, 0.5)
+ ), url(../img/city.gif);
+    color: white;
+    background-repeat: no-repeat;
+    overflow: auto;
+    background-size: 100% 110%;
+}
+
+#contenedor3{
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../img/fondo-contacto-2.jpg");
+    overflow: auto;
+    background-size: 100% 110%;
+}
+
+#contenedor4{
+    background:white;
+    overflow: auto;
+    background-size: 100% 110%;
+} */
+.efecto:target{
+    height:100%;
+}
+ 
+ 
+#desarrollofrontend a{
+	padding: 0px;
+	border:none;
+ 
+}
+#desarrollofrontend{
+	padding: 10px 0px 10px 0px;
+	background: #00bdff;
+	color: white;
+	width: 100%;
+	bottom: 0px;
+	position: fixed;
+	padding-left: 15px;
+}
+
+.position {
+    margin-top: -15%;
+}
+
+.parrafo {
+    font-size: 141%;
+    font-style: italic;
+    margin: 4%;
+}
+
+.parrafomarketing {
+    font-size: 39%;
+    font-style: italic;
+    margin: auto;
+    /* margin-left: 16%; */
+    /* margin-right: 24%; */
+    width: 75%;
+    margin-top: 4%!important;
+    margin-bottom: 19%;
+}
+
+.parrafoprincipal {
+    font-size: 33%;
+    font-style: italic;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.parrafo2 {
+    font-size: 39%;
+    font-style: italic;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#imgslider {
+    width: 112% !important;
+    /* height: 128%; */
+    margin-top: 11%;
+    /* margin: auto; */
+    /* padding: 7px; */
+    margin-left: -6%;
+}
+.img {
+    display: block;
+    margin: auto;
+    width: 16%;
+    margin-top: -7%;
+    margin-bottom: 7%;
+}
+#imgslider2 {
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+}
+
+#imgslider3 {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.grow {
+    color: white;
+    opacity: 0.7;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+.grow:hover {
+    opacity: 10;
+
+}
+
+.imagen:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+.imagen {
+
+    transition-duration: 1s;
+    
+}
+
+.font {
+    font-family: 'Lato';
+    font-size: 120%;
+    color: #b7b7b7;
+}
+
+.fontcontact {
+    font-family: 'Lato';
+    font-size: 439%;
+    color: white;
+    text-align: center;
+    margin-top: 16%;
+}
+
+.fontblack {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 82%;
+    font-weight: bold;
+    color: black;
+}
+
+.elemento_animado {
+animation-duration: 0.25s;
+transition-timing-function: ease-in;
+animation-fill-mode: both;
+}
+.transicion--fadein {
+animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.mySlides {
+    display:none;
+}
+
+.contacto {
+    margin-bottom: -5%;
+    color: white;
+    /* font-weight: bold; */
+}
+
+.email {
+    margin-left: 16%;
+    color: white;
+}
+
+.izquierda {
+    float: left;
+    margin-top: 1%;
+    margin-right: -18%;
+    margin-left: 19%;
+}
+
+.derecha {
+    float: right;
+    margin-top: -22%;
+    margin-right: 18%;
+}
+.centerimg {
+    margin-top: 8%;
+    margin-right: 16%;
+}
+
+.imgcentered {
+    margin-top: -27%;
+    margin-bottom: -36%;
+}
+
+.imgcenter {
+    display: block;
+    margin: auto;
+    width: 19%;
+    margin-top: -8%;
+    margin-bottom: 7%;
+}
+.size {
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+/* .h1style {
+    font-family: 'Lobster Two', cursive;
+    font-size: 5rem;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    color: #343434;
+} */
+
+.pulse {
+    z-index: -1;
+    position: absolute;
+    top: 46%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    max-width: 21rem;
+    circle {: ;
+    fill: #ff5154;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: 50% 50%;
+    animation: pulse 2s cubic-bezier(.5,.5,0,1);
+    &: nth-child(2) {;
+    fill: #7fc6a4;
+    animation: pulse 2s 0.75s cubic-bezier(.5,.5,0,1);
+    }: ;
+    &: nth-child(3) {;
+    fill: #e5f77d;
+    animation: pulse 2s 1.5s cubic-bezier(.5,.5,0,1);
+    }: ;
+    }: ;
+}
+    
+}
+
+@keyframes pulse {
+    
+    25% {
+        opacity: 0.4;
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+    
+}
+
+.circle {
+    margin-top: 19%;
+}
+
+.imgcontact {
+    width: 2%;
+    margin-bottom: -16%;
+    float: left;
+    margin-left: 12%;
+}
+.contactaligntext {
+    text-align: left;
+    margin-top: 4%;
+    margin-bottom: -8%;
+}
+
+.marginbutton {
+    margin-top: 2%;
+}
+
+.margincontact {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.hr1 {
+    width: 66%;
+    margin: auto;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
+.centerfree {
+    /* margin: auto; */
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16%;
+    width: 33%;
+    margin-bottom: 3%;
+}
+
+.marginemarketing {
+    margin-bottom: 4%;
+}

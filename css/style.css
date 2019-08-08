@@ -75,9 +75,9 @@ a:hover{
     text-decoration: underline;
 }
 
-.h1{
-    font-size: 80px;
-    font-family: 'Lato';
+.h1 {
+    font-size: 96px !important;
+    font-family: 'Lato' !important;
 }
 
 .contenedor{

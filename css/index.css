@@ -169,14 +169,6 @@ html{
     margin-top: 1%;
 }
 
-#imgslider {
-    width: 112% !important;
-    /* height: 128%; */
-    margin-top: 11%;
-    /* margin: auto; */
-    /* padding: 7px; */
-    margin-left: -6%;
-}
 .img {
     display: block;
     margin: auto;
@@ -184,6 +176,12 @@ html{
     margin-top: -7%;
     margin-bottom: 7%;
 }
+
+#imgslider {
+    margin: auto;
+    width: 100%;
+}
+
 #imgslider2 {
     width: 100%;
     height: 50%;

@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/animation.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>Portafolio</title>
 </head>
@@ -86,61 +89,86 @@
         </div>
     </div> -->
     <!-- <div id="contenedor4" class="efecto"> -->
-        <header class="sec uno">
-            <div class="contenedor">
-                <nav>
-                    <div class="logo">
-                        <img src="./img/da..png" alt="">
-                    </div>
-                    <div class="enlaces">
-                        <a href="">inicio</a>
-                        <a href="">Servicios</a>
-                        <a href="">Proyectos</a>
-                        <a href="">Testimonios</a>
-                        <a href="">Quiénes Somos</a>
-                        <a href="#contacto">Contacto</a>
-                    </div>
-                </nav>
-            </div>
-            <div class="texto">
-                <h1 class="h1">DIEGO ARDILA</h1>
-                <p>Diseñador UI/UX</p>
-            </div>
-            <div class="sesgouno"></div>
-        </header>
-        <section class="sec dos">
-            <div class="w3-content w3-display-container w3-section">
-                <img id="imgslider" class="mySlides w3-animate-opacity" src="img/slideibs2.png" style="width:100%">
-                <img id="imgslider" class="mySlides w3-animate-opacity" src="img/slideibs3.png" style="width:100%">
-                <img id="imgslider" class="mySlides w3-animate-opacity" src="img/slideibs11.png" style="width:100%">
-                <img id="imgslider" class="mySlides w3-animate-opacity" src="img/cropped-tic21.jpg" style="width:100%">
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-            </div>
-        </section>
-            <section class="sec tres" id="contacto">
-                <div class="sesgodos"></div>
-                <h1 class="fontcontact">CONTACTO</h1>
-                <br>
-                <div class="contactaligntext">
-                    <img class="imgcontact" src="./img/mail.png">
-                    <p class="email parrafo">alexander.diego.2007@hotmail.com </p>
+    <header class="sec uno">
+        <div class="contenedor">
+            <nav>
+                <div class="logo">
+                    <img src="./img/da..png" alt="">
                 </div>
-                <br>
-                <div class="contactaligntext">
-                    <img class="imgcontact" src="./img/linkedin.png">
-                    <p class="email parrafo">https://www.linkedin.com/in/diego-alexander-ardila-rozo-09b085124</p>
+                <div class="enlaces">
+                    <a href="">inicio</a>
+                    <a href="">Servicios</a>
+                    <a href="">Proyectos</a>
+                    <a href="">Testimonios</a>
+                    <a href="">Quiénes Somos</a>
+                    <a href="#contacto">Contacto</a>
                 </div>
-                <br>
-                <div class="contactaligntext">
-                    <img class="imgcontact" src="./img/whatsapp-icon.png">
-                    <p class="email parrafo">304 3674592 - 583 18 58</p>
+            </nav>
+        </div>
+        <div class="texto">
+            <h1 class="h1">DIEGO ARDILA</h1>
+            <p>Diseñador UI/UX</p>
+        </div>
+        <div class="sesgouno"></div>
+    </header>
+    <section class="sec dos">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/cropped-tic21.jpg" alt="Los Angeles" id="imgslider">
                 </div>
-                <!-- <div class="margincontact">
+
+                <div class="item">
+                    <img src="img/slideibs11.png" alt="Chicago" id="imgslider">
+                </div>
+
+                <div class="item">
+                    <img src="img/slideibs2.png" alt="New york" id="imgslider">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="sec tres" id="contacto">
+        <div class="sesgodos"></div>
+        <h1 class="fontcontact">CONTACTO</h1>
+        <br>
+        <div class="contactaligntext">
+            <img class="imgcontact" src="./img/mail.png">
+            <p class="email parrafo">alexander.diego.2007@hotmail.com </p>
+        </div>
+        <br>
+        <div class="contactaligntext">
+            <img class="imgcontact" src="./img/linkedin.png">
+            <p class="email parrafo">https://www.linkedin.com/in/diego-alexander-ardila-rozo-09b085124</p>
+        </div>
+        <br>
+        <div class="contactaligntext">
+            <img class="imgcontact" src="./img/whatsapp-icon.png">
+            <p class="email parrafo">304 3674592 - 583 18 58</p>
+        </div>
+        <!-- <div class="margincontact">
                     <a class="contact grow" href="#contenedor">SIGUIENTE</a>
                 </div> -->
-            </section>
-        <!-- </div> -->
+    </section>
+    <!-- </div> -->
     <script src="./js/script.js"></script>
 </body>
 

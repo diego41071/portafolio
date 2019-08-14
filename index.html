@@ -89,61 +89,106 @@
         </div>
     </div> -->
     <!-- <div id="contenedor4" class="efecto"> -->
-    <header class="sec uno">
+    <header class="sec uno" id="inicio">
         <div class="contenedor">
             <nav>
                 <div class="logo">
                     <img src="./img/da..png" alt="">
                 </div>
                 <div class="enlaces">
-                    <a href="">inicio</a>
-                    <a href="">Servicios</a>
-                    <a href="">Proyectos</a>
-                    <a href="">Testimonios</a>
-                    <a href="">Quiénes Somos</a>
+                    <a href="">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#testimonios">Testimonios</a>
+                    <a href="#quienes_somos">Quiénes Somos</a>
                     <a href="#contacto">Contacto</a>
                 </div>
             </nav>
         </div>
         <div class="texto">
-            <h1 class="h1">DIEGO ARDILA</h1>
+            <h1 class="h1 slideUp">DIEGO ARDILA</h1>
             <p>Diseñador UI/UX</p>
         </div>
         <div class="sesgouno"></div>
     </header>
     <section class="sec dos">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+        <div class="parrafocentrado" id="servicios">
+            <h1 class="subtitulo">SERVICIOS</h1><br>
+        </div>
+        <div class="container">
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="img/cropped-tic21.jpg" alt="Los Angeles" id="imgslider">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/cropped-tic21.jpg" alt="Los Angeles" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slideibs11.png" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slideibs2.png" alt="New york" style="width:100%;">
+                    </div>
                 </div>
 
-                <div class="item">
-                    <img src="img/slideibs11.png" alt="Chicago" id="imgslider">
-                </div>
-
-                <div class="item">
-                    <img src="img/slideibs2.png" alt="New york" id="imgslider">
-                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
+        </div>
+        <div class="textoservicios">
+            <a href="#inicio">Volver a inicio</a>
+        </div>
+        <div class="parrafocentrado" id="proyectos">
+            <h1 class="subtitulo">PROYECTOS</h1><br>
+            <img src="./img/WaterPacific.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <!-- <iframe src="https://outlook.live.com" style="width: 90%; height: 80%"></iframe> -->
+            <a href="#inicio">Volver a inicio</a>
+        </div>
+        </div>
+        <div class="parrafocentrado" id="testimonios">
+            <h1 class="subtitulo">TESTIMONIOS</h1><br>
+            <a href="#inicio">Volver a inicio</a>
+        </div>
+        <div class="parrafocentrado" id="quienes_somos">
+            <h1 class="subtitulo">QUIENES SOMOS</h1><br>
+            <p>
+                Somos una empresa informática de servicios y soluciones, con más de 15 años de experiencia, en el ámbito
+                de las tecnologías de la información y las comunicaciones. Nuestro principal compromiso con los clientes
+                es conseguir que las soluciones que ofrecemos tengan un impacto positivo en su organización.
+                Cloud & Support
+                Ofrecemos servicios a la carta atendiendo a las necesidades de cada cliente y abarcando desde los
+                servicios tradicionales hasta las soluciones más innovadoras. Como empresa informática, pensamos que la
+                mejor manera de satisfacer las necesidades del cliente es conocer sus peculiaridades y requisitos y así
+                diseñar la mejor solución posible para cada caso en particular.
+                Empresa informática
+                Para ofrecer servicios informáticos de calidad, disponemos de los productos líderes de cada segmento,
+                así como los fabricantes y proveedores de referencia. Además, en Sercom Cloud & Support tenemos un
+                equipo de profesionales con una alta cualificación y un gran valor humano que acompañan al cliente desde
+                el primer día buscando la satisfacción de éste.
 
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+
+
+                Porque nuestro éxito se basa en la confianza que nos brindan nuestros clientes.
+            </p>
+            <a href="#inicio">Volver a inicio</a>
         </div>
     </section>
     <section class="sec tres" id="contacto">
@@ -164,11 +209,10 @@
             <img class="imgcontact" src="./img/whatsapp-icon.png">
             <p class="email parrafo">304 3674592 - 583 18 58</p>
         </div>
-        <!-- <div class="margincontact">
-                    <a class="contact grow" href="#contenedor">SIGUIENTE</a>
-                </div> -->
+        <div class="texto">
+            <a class="iniciocontacto" href="#inicio">Volver a inicio</a>
+        </div>
     </section>
-    <!-- </div> -->
     <script src="./js/script.js"></script>
 </body>
 

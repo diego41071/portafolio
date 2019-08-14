@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-.sec{
+.sec {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 101vh;
     overflow: hidden;
 }
 
@@ -17,6 +17,12 @@
     background-position: center;
     background-repeat: no-repeat;
     
+}
+
+.dos {
+    height: 158%;
+    width: 95%;
+    margin: auto;
 }
 
 .sesgouno{
@@ -73,6 +79,13 @@ nav{
 
 a:hover{
     text-decoration: underline;
+    color: white !important;
+
+}
+
+.subtitulo {
+    font-size: 320% !important;
+    font-family: 'Lato' !important;
 }
 
 .h1 {
@@ -95,4 +108,18 @@ a:hover{
     text-align: center;
     color: white;
     margin: 150px 0;
+}
+
+.textoservicios {
+    text-align: center;
+    color: white;
+    margin: 31px 0;
+}
+
+#testimonios{
+    background-color: aquamarine;
+}
+
+#proyectos{
+    background-color: gray;
 }

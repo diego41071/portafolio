@@ -70,7 +70,7 @@ nav{
 }
 
 .enlaces a {
-    color: white;
+    color: white !important;
     font-size: 18px;
     text-decoration: none;
     font-weight: 300;
@@ -78,7 +78,7 @@ nav{
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: underline !important;
     color: white !important;
 
 }
@@ -122,4 +122,9 @@ a:hover{
 
 #proyectos{
     background-color: gray;
+}
+
+.navbar-toggler {
+    color: white !important;
+    border-color: white !important;
 }

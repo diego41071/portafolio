@@ -1,0 +1,22 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego41071/portafolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diego41071/portafolio/issues"
+  },
+  "homepage": "https://github.com/diego41071/portafolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

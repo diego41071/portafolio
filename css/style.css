@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+* {
+    box-sizing: border-box;
+  }
 .sec {
     position: relative;
     width: 100%;
@@ -20,8 +23,8 @@
 }
 
 .dos {
-    height: 158%;
-    width: 95%;
+    height:400%;
+    width: 100%;
     margin: auto;
 }
 
@@ -104,10 +107,11 @@ a:hover{
     font-weight: 300;
 }
 
-.texto{
+.texto {
     text-align: center;
     color: white;
     margin: 150px 0;
+    position: relative;
 }
 
 .textoservicios {
@@ -117,14 +121,57 @@ a:hover{
 }
 
 #testimonios{
-    background-color: aquamarine;
+    background-image: url(../img/descarga.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20%;
+    color: white;
+    padding: 10%;
+
 }
 
 #proyectos{
-    background-color: gray;
+    background-image: url(../img/dark-texture-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40%;
+    padding: 10%;
+    color: white;
+}
+
+#quienes_somos{
+    /* background-image: url(../img/dark-texture-background.jpg); */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    height: 40%;
+    padding: 5%;
+    /* color: white; */
 }
 
 .navbar-toggler {
     color: white !important;
     border-color: white !important;
 }
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    height: 175%;
+    width: 188%;
+    /* margin-top: 30%; */
+    margin-bottom: -19%;
+    /* margin-left: -13%; */
+    margin-right: -26%;
+}
+
+  .content {
+    /* position: fixed; */
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }

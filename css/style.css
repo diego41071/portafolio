@@ -80,11 +80,11 @@ nav{
     margin-left: 20px;
 }
 
-a:hover{
+/* a:hover{
     text-decoration: underline !important;
     color: white !important;
 
-}
+} */
 
 .subtitulo {
     font-size: 320% !important;
@@ -139,11 +139,11 @@ a:hover{
     color: white;
 }
 
-#quienes_somos{
+#quienes_somos {
     /* background-image: url(../img/dark-texture-background.jpg); */
     /* background-attachment: fixed; */
     /* background-size: cover; */
-    height: 40%;
+    height: 16%;
     padding: 5%;
     /* color: white; */
 }
@@ -174,4 +174,49 @@ a:hover{
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+  }
+
+  .video{
+      margin: auto; 
+  }
+
+  nav a:hover,
+  nav a:focus {
+      outline: none;
+  }
+  
+  /* Effect 1: Brackets */
+  .cl-effect-1 a::before,
+  .cl-effect-1 a::after {
+      display: inline-block;
+      opacity: 0;
+      -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+      -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+      transition: transform 0.3s, opacity 0.2s;
+  }
+  
+  .cl-effect-1 a::before {
+      /* margin-right: 2px; */
+      content: '[';
+      -webkit-transform: translateX(20px);
+      -moz-transform: translateX(20px);
+      transform: translateX(20px);
+  }
+  
+  .cl-effect-1 a::after {
+      /* margin-left: 2px; */
+      content: ']';
+      -webkit-transform: translateX(-20px);
+      -moz-transform: translateX(-20px);
+      transform: translateX(-20px);
+  }
+  
+  .cl-effect-1 a:hover::before,
+  .cl-effect-1 a:hover::after,
+  .cl-effect-1 a:focus::before,
+  .cl-effect-1 a:focus::after {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      transform: translateX(0px);
   }

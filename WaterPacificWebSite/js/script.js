@@ -27,3 +27,7 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 9000);    
 }
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});

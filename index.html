@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./css/animation.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -71,7 +72,6 @@
             <h1 class="subtitulo">SERVICIOS</h1><br>
         </div>
         <div class="container">
-
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -107,7 +107,10 @@
             </div>
         </div>
         <div class="textoservicios">
-            <a href="#inicio">Volver a inicio</a>
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+                <i class="fa fa-arrow-circle-up iconupblack zoom"></i>
+            </a>
+            <br>
         </div>
         <div class="parrafocentrado" id="proyectos">
             <h1 class="subtitulo">PROYECTOS</h1><br>
@@ -145,12 +148,28 @@
                     </div>
                 </div>
                 <br>
-                <a href="#inicio">Volver a inicio</a>
+                <!-- <div class="zoom"> -->
+
+                <!-- </div> -->
             </div>
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+                <i class="fa fa-arrow-circle-up zoom iconupwhite"></i>
+            </a>
         </div>
         <div class="parrafocentrado" id="testimonios">
             <h1 class="subtitulo">TESTIMONIOS</h1><br>
-            <a href="#inicio">Volver a inicio</a>
+            <div class="view view-tenth">
+                <img
+                    src="https://static1.squarespace.com/static/5aea79c52487fde9b8efd0b1/t/5bb6b388e5e5f09147c1b870/1538700168395/liberty.png" />
+                <div class="mask">
+                    <h2>The Only Living Boy in New York</h2>
+                    <p>Words and such, a whole lot more of muh flippin' words.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+                <i class="fa fa-arrow-circle-up zoom iconupwhite"></i>
+            </a>
         </div>
         <div class="parrafocentrado" id="quienes_somos">
             <h1 class="subtitulo">QUIENES SOMOS</h1><br>
@@ -173,7 +192,9 @@
 
                 Porque nuestro éxito se basa en la confianza que nos brindan nuestros clientes.
             </p>
-            <a href="#inicio">Volver a inicio</a>
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+                <i class="fa fa-arrow-circle-up zoom iconupblack"></i>
+            </a>
         </div>
     </section>
     <section class="sec tres" id="contacto">
@@ -195,7 +216,9 @@
             <p class="email parrafo">304 3674592 - 583 18 58</p>
         </div>
         <div class="texto">
-            <a class="iniciocontacto" href="#inicio">Volver a inicio</a>
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+                <i class="fa fa-arrow-circle-up zoom iconupwhite"></i>
+            </a>
         </div>
     </section>
     <script src="./js/script.js"></script>

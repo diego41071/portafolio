@@ -130,13 +130,13 @@ nav{
 
 }
 
-#proyectos{
-    background-image: url(../img/dark-texture-background.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    height: 40%;
-    padding: 10%;
-    color: white;
+#proyectos {
+  background-image: url(../img/dark-texture-background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 32%;
+  padding: 10%;
+  color: white;
 }
 
 #quienes_somos {
@@ -226,7 +226,8 @@ nav{
 }
 
 .iconupwhite {
-    color: white;
+  color: white;
+  /* margin-top: 21% !important; */
 }
 
 .zoom {
@@ -254,12 +255,13 @@ nav{
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
+    background: #fff url(../img/water.jpg) no-repeat center center;
+    background-size: cover;
   }
   
   .view .mask,
   .view .content {
-    width: 300px;
+    width: 308px;
     height: 200px;
     position: absolute;
     overflow: hidden;
@@ -315,7 +317,8 @@ nav{
   }
   
   .view-tenth .mask {
-    background-color: rgba(255, 231, 179, 0.3);
+    background-color: rgba(184, 165, 253, 0.829);
+    /* background-size: cover; */
     transition: all 0.5s linear;
     opacity: 0;
   }
@@ -359,3 +362,39 @@ nav{
     transform: scale(1);
     opacity: 1;
   }
+
+  .proyectostexto {
+    margin-top: -7%;
+}
+
+/* .fade-in-bottom{
+  float:left;
+  width: 33%;
+  background-color: MediumTurquoise;
+  height: 15rem;
+  transition-duration: 2s;
+  transform: translateY(2rem);
+  opacity:0;
+  margin-bottom:.7%;
+  transition-delay:.2s;
+}
+
+.fade-in-bottom:nth-of-type(3n+2){
+  background-color:LightSkyBlue;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+
+.in-view{
+ transform: translateY(0rem);
+ transition-duration: .5s;
+ transition-delay:.1s;
+ opacity:1;
+}
+
+@media only screen and (max-width: 420px) {
+  .fade-in-bottom{
+    width:100%;
+    margin: 1% 0;
+  }
+} */

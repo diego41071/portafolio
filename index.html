@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Portafolio</title>
 </head>
 
@@ -60,19 +62,23 @@
                     </div>
                 </nav>
             </div>
-            <div class="texto">
-                <h1 class="h1 slideUp">DIEGO ARDILA</h1>
+            <div class="texto" data-aos="fade-up">
+                <h1 class="h1">DIEGO ARDILA</h1>
                 <p>Diseñador UI/UX y desarrollador de software</p>
             </div>
         </div>
         <div class="sesgouno"></div>
     </header>
     <section class="sec dos">
-        <div class="parrafocentrado" id="servicios">
-            <h1 class="subtitulo">SERVICIOS</h1><br>
-        </div>
         <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="parrafocentrado" id="servicios" data-aos="fade-up">
+                <h1 class="subtitulo">SERVICIOS</h1><br>
+                <h2>Creacion de paginas web, desarrollo de software de todo tipo, desarrollo movil, creacion de diseños
+                    publicitarios
+                </h2>
+            </div>
+            <!-- <div class="container"> -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-aos="fade-up">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -106,41 +112,57 @@
                 </a>
             </div>
         </div>
-        <div class="textoservicios">
+        <div class="textoservicios" data-aos="fade-up">
             <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
                 <i class="fa fa-arrow-circle-up iconupblack zoom"></i>
             </a>
             <br>
         </div>
-        <div class="parrafocentrado" id="proyectos">
-            <h1 class="subtitulo">PROYECTOS</h1><br>
-            <h2>Water Pacific</h2>
-            Abel Ángel Quiroz ha inventado un dispositivo llamado Water Pacific, que recoge la humedad del aire y la
-            transforma en agua apta para el consumo humano.
-
-            El invento ha sido probado en el departamento colombiano de Antioquia, más concretamente en el Valle de
-            Aburrá y, produce 35 litros de agua al día.
-
-            Water Pacific
-
-            Se trata de un ingenioso invento que puede suponer una buena solución para el desabastecimiento de agua en
-            algunas zonas, ya que, la humedad relativa en el aire existe hasta en los lugares más áridos del planeta.
-
-            Además este inventor también ha diseñado el Proyecto Hydroball, capacitado para producir un litro de agua
-            extraída de la humedad del aire, con posibilidad de suministro de al menos diez plantas dentro de un
-            cultivo.
-
-            Tú también tienes una mente creativa. Desarrolla todo tu potencial inscribiéndote en nuestro Máster en
-            Construcción y Explotación de Obras Hidráulicas.
+        <div class="parrafocentrado" id="proyectos" data-aos="fade-up">
+            <div class="proyectostexto" data-aos="fade-up">
+                <h1 class="subtitulo">PROYECTOS</h1>
+            </div>
             <br>
-            <a href="./WaterPacificWebSite/index.html" target="blank">Visita el sitio</a>
+            <h2 data-aos="fade-up">Water Pacific</h2>
+            <p data-aos="fade-up">
+                Abel Ángel Quiroz ha inventado un dispositivo llamado Water Pacific, que recoge la humedad del aire y la
+                transforma en agua apta para el consumo humano.
+
+                El invento ha sido probado en el departamento colombiano de Antioquia, más concretamente en el Valle de
+                Aburrá y, produce 35 litros de agua al día.
+
+                Water Pacific
+
+                Se trata de un ingenioso invento que puede suponer una buena solución para el desabastecimiento de agua
+                en
+                algunas zonas, ya que, la humedad relativa en el aire existe hasta en los lugares más áridos del
+                planeta.
+
+                Además este inventor también ha diseñado el Proyecto Hydroball, capacitado para producir un litro de
+                agua
+                extraída de la humedad del aire, con posibilidad de suministro de al menos diez plantas dentro de un
+                cultivo.
+
+                Tú también tienes una mente creativa. Desarrolla todo tu potencial inscribiéndote en nuestro Máster en
+                Construcción y Explotación de Obras Hidráulicas.
+            </p>
+            <br>
+            <!-- <a href="./WaterPacificWebSite/index.html" target="blank">Visita el sitio</a> -->
             <br>
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <img src="./img/WaterPacific.jpg" alt="">
+                        <div class="view view-tenth">
+                            <img src="./img/WaterPacific.jpg" />
+                            <div class="mask">
+                                <h2 data-aos="fade-up">Water Pacific</h2>
+                                <p data-aos="fade-up">Alternativa para las regiones secas</p>
+                                <a href="./WaterPacificWebSite/index.html" target="blank" class="info">Visita el
+                                    sitio</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm" data-aos="fade-up">
                         <div class="video">
                             <iframe width="420" height="345" src="https://www.youtube.com/embed/z_3o4umeCHA">
                             </iframe>
@@ -152,28 +174,19 @@
 
                 <!-- </div> -->
             </div>
-            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio" data-aos="fade-up">
                 <i class="fa fa-arrow-circle-up zoom iconupwhite"></i>
             </a>
         </div>
         <div class="parrafocentrado" id="testimonios">
-            <h1 class="subtitulo">TESTIMONIOS</h1><br>
-            <div class="view view-tenth">
-                <img
-                    src="https://static1.squarespace.com/static/5aea79c52487fde9b8efd0b1/t/5bb6b388e5e5f09147c1b870/1538700168395/liberty.png" />
-                <div class="mask">
-                    <h2>The Only Living Boy in New York</h2>
-                    <p>Words and such, a whole lot more of muh flippin' words.</p>
-                    <a href="#" class="info">Read More</a>
-                </div>
-            </div>
-            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+            <h1 class="subtitulo" data-aos="fade-up">TESTIMONIOS</h1><br>
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio" data-aos="fade-up">
                 <i class="fa fa-arrow-circle-up zoom iconupwhite"></i>
             </a>
         </div>
-        <div class="parrafocentrado" id="quienes_somos">
-            <h1 class="subtitulo">QUIENES SOMOS</h1><br>
-            <p>
+        <div class="parrafocentrado" id="quienes_somos" data-aos="fade-up">
+            <h1 class="subtitulo" data-aos="fade-up">QUIENES SOMOS</h1><br>
+            <p data-aos="fade-up">
                 Somos una empresa informática de servicios y soluciones, con más de 15 años de experiencia, en el ámbito
                 de las tecnologías de la información y las comunicaciones. Nuestro principal compromiso con los clientes
                 es conseguir que las soluciones que ofrecemos tengan un impacto positivo en su organización.
@@ -192,30 +205,30 @@
 
                 Porque nuestro éxito se basa en la confianza que nos brindan nuestros clientes.
             </p>
-            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
+            <a href="#inicio" data-toggle="tooltip" title="Volver a inicio" data-aos="fade-up">
                 <i class="fa fa-arrow-circle-up zoom iconupblack"></i>
             </a>
         </div>
     </section>
-    <section class="sec tres" id="contacto">
+    <section class="sec tres" id="contacto" data-aos="fade-up">
         <div class="sesgodos"></div>
-        <h1 class="fontcontact">CONTACTO</h1>
+        <h1 class="fontcontact" data-aos="fade-up">CONTACTO</h1>
         <br>
-        <div class="contactaligntext">
+        <div class="contactaligntext" data-aos="fade-up">
             <img class="imgcontact" src="./img/mail.png">
             <p class="email parrafo">alexander.diego.2007@hotmail.com </p>
         </div>
         <br>
-        <div class="contactaligntext">
+        <div class="contactaligntext" data-aos="fade-up">
             <img class="imgcontact" src="./img/linkedin.png">
             <p class="email parrafo">https://www.linkedin.com/in/diego-alexander-ardila-rozo-09b085124</p>
         </div>
         <br>
-        <div class="contactaligntext">
+        <div class="contactaligntext" data-aos="fade-up">
             <img class="imgcontact" src="./img/whatsapp-icon.png">
             <p class="email parrafo">304 3674592 - 583 18 58</p>
         </div>
-        <div class="texto">
+        <div class="texto" data-aos="fade-up">
             <a href="#inicio" data-toggle="tooltip" title="Volver a inicio">
                 <i class="fa fa-arrow-circle-up zoom iconupwhite"></i>
             </a>

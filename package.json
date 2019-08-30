@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/diego41071/portafolio#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^4.3.1"
   }
 }

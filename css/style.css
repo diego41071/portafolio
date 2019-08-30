@@ -23,9 +23,9 @@
 }
 
 .dos {
-    height:400%;
-    width: 100%;
-    margin: auto;
+  height: 290%;
+  width: 100%;
+  margin: auto;
 }
 
 .sesgouno{
@@ -120,21 +120,11 @@ nav{
     margin: 31px 0;
 }
 
-#testimonios{
-    background-image: url(../img/descarga.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    height: 20%;
-    color: white;
-    padding: 10%;
-
-}
-
 #proyectos {
   background-image: url(../img/dark-texture-background.jpg);
   background-attachment: fixed;
   background-size: cover;
-  height: 32%;
+  height: 45%;
   padding: 10%;
   color: white;
 }

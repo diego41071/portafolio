@@ -38,15 +38,12 @@
 }
 
 .tres{
-    background:linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ), url(../img/black-and-white-city-background.png);
+    background:url(../img/background2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 .sesgodos{
     position: absolute;
@@ -108,10 +105,10 @@ nav{
 }
 
 .texto {
-    text-align: center;
-    color: white;
-    margin: 150px 0;
-    position: relative;
+  text-align: center;
+  color: white;
+  margin: 128px 0px 0px 0px;
+  position: relative;
 }
 
 .textoservicios {
@@ -130,12 +127,9 @@ nav{
 }
 
 #quienes_somos {
-    /* background-image: url(../img/dark-texture-background.jpg); */
-    /* background-attachment: fixed; */
-    /* background-size: cover; */
-    height: 16%;
-    padding: 5%;
-    /* color: white; */
+  height: 16%;
+  padding: 10%;
+  margin-top: -8%;
 }
 
 .navbar-toggler {
@@ -357,34 +351,13 @@ nav{
     margin-top: -7%;
 }
 
-/* .fade-in-bottom{
-  float:left;
-  width: 33%;
-  background-color: MediumTurquoise;
-  height: 15rem;
-  transition-duration: 2s;
-  transform: translateY(2rem);
-  opacity:0;
-  margin-bottom:.7%;
-  transition-delay:.2s;
+.textocentrado{
+  text-align: center; 
+  color: #f1f1f1;
 }
 
-.fade-in-bottom:nth-of-type(3n+2){
-  background-color:LightSkyBlue;
-  margin-left: .5%;
-  margin-right: .5%;
+.link {
+  width: 5%;
+  display: block;
+  margin: auto;
 }
-
-.in-view{
- transform: translateY(0rem);
- transition-duration: .5s;
- transition-delay:.1s;
- opacity:1;
-}
-
-@media only screen and (max-width: 420px) {
-  .fade-in-bottom{
-    width:100%;
-    margin: 1% 0;
-  }
-} */

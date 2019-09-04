@@ -86,8 +86,9 @@ html{
 
 .parrafo {
     font-size: 141%;
-    font-style: italic;
+    /* font-style: italic; */
     margin: 4%;
+    width: 86%;
 }
 
 .parrafomarketing {
@@ -263,13 +264,21 @@ animation-name: fadeIn;
 }
 
 .imgcontact {
-    width: 2%;
-    margin-bottom: -16%;
-    float: left;
-    margin-left: 12%;
+    width: 60%;
+    display: block;
+    margin: auto;
 }
+
 .contactaligntext {
-    text-align: left;
+    /* text-align: center; */
+    margin-top: 4%;
+    /* font-style: italic; */
+    /* margin-bottom: -8%; */
+    /* margin: 0; */
+}
+
+.contactemail {
+    text-align: center;
     margin-top: 4%;
     margin-bottom: -8%;
 }
@@ -319,3 +328,38 @@ animation-name: fadeIn;
     text-decoration:  underline;
 }
 
+.emailtext {
+    margin-left: 16%;
+}
+.phonetext {
+    margin-right: 20%;
+    /* width: 212%; */
+}
+
+.imgemail {
+    width: 9%;
+    float: left;
+    margin-top: 5%;
+}
+
+.imgphone {
+    width: 8%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.emailparrafo {
+    margin-left: 11%;
+    color: white;
+}
+
+
+.phoneparrafo {
+    margin-right: 18%;
+    color: white;
+}
+
+.waterpacifik {
+    color: #b7b7b3;
+}

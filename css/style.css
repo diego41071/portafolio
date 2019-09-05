@@ -360,3 +360,30 @@ nav{
   display: block;
   margin: auto;
 }
+
+@media screen and (min-width:300px) and (max-width:800px) {
+  body {
+      font-size:17px !important;
+  }
+  
+  .uno {
+    height: 103%;
+}
+
+  .h1 {
+    font-size: 48px !important;
+    margin-top: -25% !important;
+  }
+
+  .texto p {
+    font-size: 27px;
+    padding: 60px;
+    margin-top: -11%;
+  }
+
+  #myVideo {
+    height: 224%;
+    width: 375%;
+    margin-bottom: -99%;
+  }
+}

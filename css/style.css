@@ -369,6 +369,10 @@ nav{
   .uno {
     height: 103%;
 }
+.dos {
+  height: 747%;
+  margin-bottom: -467%;
+}
 
   .h1 {
     font-size: 48px !important;
@@ -386,4 +390,8 @@ nav{
     width: 375%;
     margin-bottom: -99%;
   }
+
+  #proyectos {
+    height: 33%;
+}
 }

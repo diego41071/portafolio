@@ -371,6 +371,26 @@ animation-name: fadeIn;
 @media screen and (min-width:300px) and (max-width:800px) {
     body {
         font-size:17px !important;
-    } 
+    }
+    
+    .fontcontact {
+        font-size: 321%;
+        margin-top: 37%;
+    }
+
+    .emailtext{
+        margin-left: 3%;
+        font-size: 69%;
+    }
+
+    .phonetext {
+        font-size: 68%;
+        margin-right: 0% !important;
+    }
+
+    .imgcontact{
+        width: 278%;
+        margin-left: -91%
+    }
    }
 

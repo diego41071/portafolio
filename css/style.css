@@ -369,10 +369,10 @@ nav{
   .uno {
     height: 103%;
 }
-.dos {
-  height: 747%;
-  margin-bottom: -467%;
-}
+  .dos {
+    height: 747%;
+    margin-bottom: -467%;
+  }
 
   .h1 {
     font-size: 48px !important;
@@ -393,5 +393,38 @@ nav{
 
   #proyectos {
     height: 33%;
+  }
+
+  .view{
+    margin-left: -14%;
+
+  }
+
+  .video{
+    margin-top: 31%;
+    margin-bottom: 20%;
+  }
+
+  .subtitulo {
+    font-size: 268% !important;
+  }
+
+  #quienes_somos {
+    margin-top: 6%;
+  }
+
+  .sesgouno{
+    bottom: -3px;
+    border-width: 15vh 0 0 104vw;
+  }
 }
-}
+
+@media screen and (min-width:400px) and (max-width:800px) {
+  .view {
+      margin-left: -5%;
+  }
+  
+  #proyectos {
+    height: 31%;
+  }
+ }

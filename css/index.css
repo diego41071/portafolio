@@ -392,5 +392,17 @@ animation-name: fadeIn;
         width: 278%;
         margin-left: -91%
     }
+
+    .youtube {
+        width: 329px;
+        height: 200px;
+        margin-left: -13%;
+    }
+   }
+
+   @media screen and (min-width:400px) and (max-width:800px) {
+    .youtube {
+        margin-left: -5%;
+    }
    }
 

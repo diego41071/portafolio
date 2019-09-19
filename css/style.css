@@ -120,7 +120,10 @@ nav{
 }
 
 #proyectos {
-  background-image: url(../img/dark-texture-background.jpg);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.9)
+  ), url(../img/dark-texture-background.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 48%;

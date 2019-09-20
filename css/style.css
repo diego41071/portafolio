@@ -28,6 +28,7 @@
   margin: auto;
   background-color: #e1eff3;
   color: black;
+  margin-bottom: -12%;
 }
 
 .sesgouno{
@@ -126,7 +127,7 @@ nav{
   ), url(../img/dark-texture-background.jpg);
   background-attachment: fixed;
   background-size: cover;
-  height: 48%;
+  height: 40%;
   padding: 10%;
   color: white;
 }

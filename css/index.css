@@ -262,9 +262,25 @@ animation-name: fadeIn;
 }
 
 .imgcontact {
-    width: 60%;
+    width: 61%;
     display: block;
     margin: auto;
+}
+
+.imgfacebook {
+    width: 75%;
+    height: 73%;
+    display: block;
+    margin: auto;
+    margin-top: -11%;
+    margin-bottom: -9%;
+}
+
+.center-redes {
+    display: block;
+    margin-right: 41%;
+    margin-left: 41%;
+    display: inline-flex !important;
 }
 
 .contactaligntext {
@@ -388,6 +404,12 @@ p {
 .imgquienes {
     margin-top: -7%;
 }
+
+.slider {
+    margin-top: 4%;
+}
+
+
 
 @media screen and (min-width:300px) and (max-width:800px) {
     body {

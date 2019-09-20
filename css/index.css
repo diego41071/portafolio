@@ -431,15 +431,30 @@ p {
         margin-right: 0% !important;
     }
 
-    .imgcontact{
-        width: 278%;
-        margin-left: -91%
+    .imgcontact {
+        width: 179%;
+        margin-left: -23%;
+    }
+
+    .imgfacebook {
+        width: 247%;
+        height: 117%;
+        margin-left: 88%;
+        margin-top: -33%;
+    }
+
+    .center-redes {
+        margin-left: 27%;
     }
 
     .youtube {
         width: 329px;
         height: 200px;
         margin-left: -13%;
+    }
+
+    .iconupwhite {
+        margin-top: 12% !important;
     }
    }
 

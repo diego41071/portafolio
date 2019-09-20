@@ -380,9 +380,14 @@ nav{
   body {
       font-size:17px !important;
   }
+
+  .textocentrado {
+    margin-left: -68%;
+    margin-top: 10%;
+  }
   
   .uno {
-    height: 103%;
+    height: 80%;
 }
   .dos {
     height: 747%;
@@ -407,13 +412,18 @@ nav{
   }
 
   #proyectos {
-    height: 33%;
+    height: 37%;
   }
 
   .view{
     margin-left: -14%;
 
   }
+
+  .view-tenth {
+    width: 129%;
+    height: 93%;
+}
 
   .video{
     margin-top: 31%;

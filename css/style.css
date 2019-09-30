@@ -442,6 +442,22 @@ nav{
     bottom: -3px;
     border-width: 15vh 0 0 104vw;
   }
+
+  .buttonquienes {
+    margin-top: 17%;
+ }
+
+ .imgquienes {
+  margin-top: 7%;
+}
+
+.buttonproyectos {
+  margin-top: -2% !important;
+}
+
+.buttoncontacto {
+  margin-top: 1% !important;
+}
 }
 
 @media screen and (min-width:400px) and (max-width:800px) {

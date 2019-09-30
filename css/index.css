@@ -409,7 +409,32 @@ p {
     margin-top: 4%;
 }
 
+.whatsapp {
+    color: black;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 80px;
+}
+.messenger {
+    color: black;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 80px;
+}
 
+
+.chat {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    margin-left: 76%;
+    float: right;
+    background-color: white;
+}
 
 @media screen and (min-width:300px) and (max-width:800px) {
     body {

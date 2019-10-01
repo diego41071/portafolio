@@ -407,6 +407,7 @@ p {
 
 .slider {
     margin-top: 4%;
+    margin-bottom: 5%;
 }
 
 .whatsapp {
@@ -415,7 +416,7 @@ p {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    font-size: 80px;
+    font-size: 40px;
 }
 .messenger {
     color: black;
@@ -431,9 +432,16 @@ p {
     display: block;
     position: fixed;
     z-index: 100;
-    margin-left: 76%;
     float: right;
     background-color: white;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    top: 74%;
+    left: 94%;
+    border-radius: 9px;
+    height: 23%;
+    width: 3%;
+    text-align: center;
 }
 
 @media screen and (min-width:300px) and (max-width:800px) {

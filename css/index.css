@@ -444,7 +444,15 @@ p {
     text-align: center;
 }
 
+.textoproyectos{
+    text-align: left;
+}
+
 @media screen and (min-width:300px) and (max-width:800px) {
+    .chat {
+        width: 10%;
+        left: 88%;
+    }
     body {
         font-size:17px !important;
     }

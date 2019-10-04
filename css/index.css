@@ -520,6 +520,17 @@ p {
     .iconupwhite {
         margin-top: 12% !important;
     }
+
+    .arrowup {
+        top: 64%;
+        left: 89%;
+    }
+
+    .arrowupbutton {
+        font-size: 290% !important;
+        margin-left: -10% !important;
+        margin-top: -24% !important;
+    }
    }
 
    @media screen and (min-width:400px) and (max-width:800px) {

@@ -23,7 +23,7 @@
 }
 
 .dos {
-  height: 300%;
+  height: 316%;
   width: 100%;
   margin: auto;
   background-color: #e1eff3;
@@ -40,14 +40,20 @@
     border-color: transparent transparent transparent #e1eff3;
 }
 
-.tres{
-    background:url(../img/background2.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    /* background-repeat: no-repeat; */
+.iconupcontacto {
+  margin-top: -2% !important;
 }
+
+.tres {
+  background: url(../img/background2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 79%;
+}
+
 .sesgodos{
     position: absolute;
     top: 0;

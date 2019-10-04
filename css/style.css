@@ -466,12 +466,20 @@ nav{
   }
   
   #proyectos {
-    height: 33% !important;
+    height: 34% !important;
 }
 
   .view-tenth {
     width: 110%;
     height: 123%;
     margin-top: -11%;
+  }
+
+  .buttonproyectos {
+    margin-top: -11% !important;
+  }
+
+  .dos {
+    height: 763%;
   }
 }

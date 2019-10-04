@@ -503,4 +503,8 @@ p {
     .youtube {
         margin-left: -5%;
     }
+
+    html {
+        height: 122%;
+    }
    }

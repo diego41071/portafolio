@@ -563,7 +563,7 @@ p {
     }
 }
 
-    @media screen and (max-width:1600px) and (min-width:1300px) { /* large resolution */ 
+    @media screen and (max-width:1600px) and (min-width:1500px) { /* large resolution */ 
         #proyectos {
             height: 36% !important;
         }

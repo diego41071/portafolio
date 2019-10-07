@@ -562,3 +562,13 @@ p {
         height: 979%;
     }
 }
+
+    @media screen and (max-width:1600px) and (min-width:1300px) { /* large resolution */ 
+        #proyectos {
+            height: 36% !important;
+        }
+
+        html {
+            height: 91% !important;
+        }
+    }

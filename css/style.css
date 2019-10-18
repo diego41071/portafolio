@@ -474,6 +474,38 @@ nav{
   }
 }
 
+@media screen and (min-width:500px) and (max-width:800px) {
+  .messengericon {
+    width: 74%;
+  }
+
+  #proyectos {
+    height: 31% !important;
+  }
+
+  .dos {
+    height: 781%;
+}
+}
+
+@media screen and (min-width:400px) and ( max-height: 537px ) {
+  #proyectos {
+      height: 30%;
+  }
+}
+
+@media screen and (min-width:1010px)and (max-height:545px){ /* large resolution */ 
+  #proyectos {
+      height:45% !important;
+  }
+}
+
 @media screen and (max-width:1600px) and (min-width:1300px) { /* large resolution */ 
     
+}
+
+@media screen and (max-width:1600px) and (min-width:1500px) { /* large resolution */ 
+  #proyectos {
+      height: 36% !important;
+  }
 }

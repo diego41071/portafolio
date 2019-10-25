@@ -575,7 +575,13 @@ p {
     .dos {
         height: 979%;
     }
-}
+    }
+
+    @media screen and (min-width:300px) and ( max-height: 479px ) {
+        .youtube {
+            width: 267px;
+        }
+    }
 
     @media screen and (max-width:1600px) and (min-width:1500px) { /* large resolution */ 
         html {

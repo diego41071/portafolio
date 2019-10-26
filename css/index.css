@@ -416,6 +416,7 @@ p {
     border-radius: 50px;
     font-size: 40px;
 }
+
 .messenger {
     color: black;
     width: 60px;
@@ -580,6 +581,23 @@ p {
     @media screen and (min-width:300px) and ( max-height: 479px ) {
         .youtube {
             width: 267px;
+        }
+
+        .arrowupbutton {
+            font-size: 223% !important;
+        }
+
+        .arrowup{
+            height: 25px;
+            width: 27px;
+        }
+
+        .whatsapp {
+            font-size: 28px;
+        }
+
+        .parrafo {
+            font-size: 103%;
         }
     }
 

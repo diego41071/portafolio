@@ -502,6 +502,8 @@ nav{
   .dos {
     margin-bottom: 3%;
   }
+  .h1{
+    margin-top: -146px !important;
 }
 
 @media screen and (min-width:1010px)and (max-height:545px){ /* large resolution */ 

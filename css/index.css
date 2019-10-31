@@ -607,3 +607,8 @@ p {
         }
     }
 
+    @media screen and (min-width:1601px) { /* large resolution */ 
+       
+    }
+
+

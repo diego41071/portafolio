@@ -608,7 +608,11 @@ p {
     }
 
     @media screen and (min-width:1601px) { /* large resolution */ 
-       
+       .chat{
+        height: 13%;
+        padding: 4px;
+        left: 1499px;
+       }
     }
 
 

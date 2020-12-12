@@ -375,8 +375,8 @@ nav a:focus {
     height: 80%;
   }
   .dos {
-    height: 751%;
-    margin-bottom: -467%;
+    height: 4203px;
+    /* margin-bottom: -467%; */
   }
 
   .h1 {
@@ -397,7 +397,7 @@ nav a:focus {
   }
 
   #proyectos {
-    height: 37%;
+    height: 48%;
   }
 
   .view {
@@ -450,7 +450,7 @@ nav a:focus {
   }
 
   #proyectos {
-    height: 34% !important;
+    height: 64% !important;
   }
 
   .view-tenth {
@@ -464,7 +464,10 @@ nav a:focus {
   }
 
   .dos {
-    height: 5771px;
+    height: 2886px;
+  }
+  #quienes_somos {
+    margin-top: 213%;
   }
 }
 
